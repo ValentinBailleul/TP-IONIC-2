@@ -6,7 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
+title: string;
   constructor() {}
+  updateTitle() {
+    this.title = 'Un nouveau titre';
+  }
+  maNouvelleMethodeQuiNeSeraPasTeste() {
+    this.title = 'Mon nouveau titre';
+  }
 
 }
